@@ -1,0 +1,44 @@
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+    overscroll-behavior: contain;
+    position: relative;
+}
+
+.heading {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.heading-wrapper {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 0 10px;
+}
+
+pre{
+    font-family: monospace;
+    font-size: 10px;
+}
+
+.donut-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.coming-soon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
